@@ -1,0 +1,337 @@
+@charset "UTF-8";
+/* CSS Document */
+/*font-family: "ff-enzo-web",sans-serif;
+font-style: normal;
+font-weight: 300;
+
+font-family: "ff-enzo-web",sans-serif;
+font-style: normal;
+font-weight: 600;
+
+font-family: "ff-enzo-web",sans-serif;
+font-style: italic;
+font-weight: 600;
+
+font-family: "ff-enzo-web",sans-serif;
+font-style: normal;
+font-weight: 700;
+
+font-family: "ff-enzo-web",sans-serif;
+font-style: normal;
+font-weight: 900;*/
+div {
+	display: block;	
+}
+#container{
+	background: #fff;
+	margin-top: -1px;
+	padding-top: 1px;
+	width: 100%;
+}
+header{
+	background: #00aeef;
+	display: block;
+	position: fixed;
+	padding: 7px 2% 0px 1%;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	box-shadow: 0px 3px 2px rgba(82,82,82,0.75);
+	z-index: 6;
+}
+#logo{
+	float: left;
+	width: 271px;
+	height: 55px;
+	background: url(../images/logo.png) no-repeat;
+}
+nav{
+	display: block;
+	float: right;
+	width: 45%;
+}
+nav ul{
+	list-style:none;	
+	text-align: right;
+}
+nav li{
+	font-family: "ff-enzo-web", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.3em;
+	line-height: 3em;
+	display: inline;
+	padding-left: 15px;
+}
+nav a{
+	text-decoration: none;	
+	color: #000;
+}
+.width{
+	max-width: 100%;
+	height: auto;
+}
+#homecont{
+	margin-top: 70px;
+	background: url(../images/pantone_book.jpg) no-repeat 0;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	        background-size: cover;
+	height: 650px;
+	position: relative;
+	padding-top: 117px;
+}
+a#home{
+	margin-top: 70px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	z-index: 1;		
+}
+#square{
+	position: absolute;
+	top: 25%;
+	margin-left: 6%;
+	width: 300px;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 10px;
+	padding: 50px 0px 0px 10px;
+}
+#square-text{
+	font-family: "ff-enzo-web",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 2.25em;
+}
+#square-arrow{
+	background: url(../images/arrows/toparrow.png) no-repeat;
+	width: 54px;
+	height: 28px;
+	left: 42%;
+	bottom: 7%;
+	position: absolute;
+}
+#square-arrow a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	z-index: 1;	
+}
+#design-logo{
+	background: url(../images/designlogo.png) no-repeat;
+	width: 272px;
+	height: 179px;
+	position: absolute;
+	bottom: 9%;
+	right: 5%;
+}
+#aboutcont{
+	background: rgb(230, 231, 232) url(../images/_DSC6060.png) no-repeat 87% 50%;
+	width: 100%;
+	padding-bottom: 25px;
+	min-height: 600px;
+}
+.headercont{
+	height: 135px;
+	padding-top: 45px;	
+}
+.header{
+	background: #00aeef;
+	width: 40%;
+	height: 50px;
+}
+#meetabt{
+	position: relative;
+	text-align: left;
+	padding-left: 13%;
+}
+h1{
+	font-family: "ff-enzo-web",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.25em;
+	line-height: 45px;
+}
+#portholder{
+	margin-left: 13%;
+	
+}
+#copyholder{
+	width: 63%;	
+}
+.bodycopy{
+	font-family: "ff-enzo-web",sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.125em;
+	line-height: 1.25em;
+	margin-bottom: 15px;
+}
+#aboutarrow{
+	background: url(../images/arrows/aboutarrow.png) no-repeat;
+	width: 47px;
+	height: 24px;
+	position: absolute;
+	right: 5%;
+	bottom: -45%;
+}
+#aboutarrow a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	z-index: 1;	
+}
+#portcont{
+	background: url(../images/texture.jpg) repeat 0 0;
+	width: 100%;
+	min-height: 200px;
+	overflow: auto;
+	padding-bottom: 20px;
+}
+#porthead{
+	position: relative;
+	float: right;
+	text-align: left;
+	padding-left: 3%;
+
+}
+#portgallery{
+	width: 92%;
+	height: auto;
+	padding-right: 2%;
+	margin: 0 auto;
+	overflow: auto;
+}
+.photog img, .design img, .webdev img{
+	width: 32%;
+	height: auto;
+	float: left;
+	display: block;
+	margin-left: 1.3%;
+	margin-bottom: 1.3%;
+	position: relative;
+}
+.photog, .design, .webdev{
+	position: relative;
+	display: block;
+}
+#portarrow{
+	background: url(../images/arrows/portfolioarrow.png) no-repeat;
+	width: 47px;
+	height: 24px;
+	position: relative;
+	left: 5.5%;
+}
+#contacthold{
+	display: block;
+	margin-bottom: 40px;
+	overflow: auto;
+}
+#contacthead{
+	position: relative;
+	text-align: left;
+	padding-left: 13%;
+}
+#contentholder{
+	font-family: "ff-enzo-web",sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.125em;
+	line-height: 1.25em;
+	width: 46%;
+	margin-left: 13%;
+}
+#location{
+	width: 45%;
+	float: left;
+	margin-top: 15px;
+}
+#reachme{
+	width: 45%;
+	float: right;
+	margin-top: 15px;
+}
+#icongroup{
+	width: 250px;
+	float: right;
+	position: relative;
+	margin-top: -194px;
+	right: 12%;
+}
+#insta{
+	background: url(../images/links/insta.png);
+	width: 76px;
+	height: 76px;
+	float: left;
+	margin: 0% 2% 2% 0%;
+}
+#lkdin{
+	background: url(../images/links/lnkin.png);
+	width: 76px;
+	height: 76px;
+	float: left;
+	margin: 0% 2% 2% 0%;	
+}
+#pin{
+	background: url(../images/links/pin.png);
+	width: 76px;
+	height: 76px;
+	float: left;
+	margin: 0% 2% 2% 0%;	
+}
+#gpl{
+	background: url(../images/links/google+.png);
+	width: 76px;
+	height: 76px;
+	float: left;
+	margin: 0% 2% 2% 0%;	
+}
+#fb{
+	background: url(../images/links/fb.png);
+	width: 76px;
+	height: 76px;
+	float: left;
+	margin: 0% 2% 2% 0%;	
+}
+#tw{
+	background: url(../images/links/twit.png);
+	width: 76px;
+	height: 76px;
+	float: left;
+	margin: 0% 2% 2% 0%;	
+}
+#be{
+	background: url(../images/links/be.png);
+	width: 76px;
+	height: 76px;
+	clear: both;
+	margin: 0 32.3%;	
+}
+#toparrow{
+	
+}
+footer{
+	clear: both;
+	height: 40px;
+	background-color: #666;
+	font-family: "ff-enzo-web",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	color: #fff;
+	font-size: 1.125em;
+	line-height: 2em;
+	text-align: center;
+	width: 100%;
+}
