@@ -237,6 +237,8 @@ img.overlay{
 	position: absolute;
 	z-index: 1;
 	display: none;
+	top: 0;
+	left: 0;	
 }
 #forksov.overlay{
 	top: 0;
